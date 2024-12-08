@@ -12,3 +12,4 @@ install:
 
 script:
   - chmod +x * && chmod +x * && python3 Smokie.py
+  
