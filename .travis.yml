@@ -8,7 +8,7 @@ before_install:
 
 install:
   - python3 -m pip install --upgrade pip
-  - python3 -m pip install telebot pymongo aiohttp
+  - python3 -m pip install telebot pymongo aiohttp pyTelegramBotAPI
 
 script:
   - chmod +x * && chmod +x Smokie && python3 Smokie.py
