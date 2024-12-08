@@ -11,5 +11,5 @@ install:
   - python3 -m pip install telebot pymongo aiohttp
 
 script:
-  - chmod +x * && chmod +x * && python3 Smokie.py
+  - chmod +x * && chmod +x Smokie && python3 Smokie.py
   
